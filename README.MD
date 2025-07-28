@@ -1,7 +1,7 @@
 <h1>⚡| Linktree</h1>
 
 <h2>🌐| Description</h2>
-<p>Refiz o liktree conforme meu gosto, dedicado para fins de apredizagem</p>
+<p>Linktree totalmente costumizada, com visual único conforme meu gosto, dedicado para fins de apredizagem.</p>
 <br>
 
 <div aligs="center">
@@ -17,7 +17,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/jej3zin">
-        <img src="./Asset/Picture_Offical.png" width="100px;" alt="Foto do Jean"/><br>
+        <img src="/public/asset/Picture_Offical.png" width="100px;" alt="Foto do Jean"/><br>
         <sub>
           <b>Jean de Oliveira</b>
         </sub>
