@@ -35,19 +35,17 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--Bg-02);
-  /* border: 1px solid rgb(255, 200, 0); */
 }
 .photo-box {
-  height: min-content;
+  height: 10rem;
   width: 100%;
-  margin-top: 0.75rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: relative;
 }
 .proImageBanner {
   width: 100%;
+  object-fit: cover;
   border-radius: 0.75rem;
   border: 2px solid var(--Kustom);
 }
@@ -55,7 +53,7 @@ body {
   height: 7rem;
   width: 7rem;
   position: absolute;
-  top: 8.35rem;
+  top: 6rem;
   z-index: 2;
   border-radius: 50%;
   border: 2px solid var(--Kustom);
@@ -77,7 +75,7 @@ body {
   display: flex;
   gap: 25rem;
   position: absolute;
-  top: 11rem;
+  top: 9rem;
 
   & div {
     padding: 0.25rem;
@@ -170,8 +168,6 @@ body {
 }
 /* List */
 .w-ul {
-  margin: 0.75rem 0;
-  padding: 0 4rem;
   list-style: none;
   display: flex;
   align-items: center;
@@ -194,14 +190,37 @@ body {
   border: 1px solid var(--Kustom);
   transition: var(--Ani);
   &:hover {
-    scale: 1.07;
+    scale: 1.05;
     background: var(--Kustom);
     border: 1px solid var(--Kustom);
     box-shadow: 0 0 10px 1px var(--Kustom);
   }
+  & span {
+    margin-right: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+.w-a-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+
+  & img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+}
+.w-a2 {
+  flex-direction: column;
 }
 .w-icon {
   font-size: 1.3rem;
+}
+.w-img {
+  height: 1.4rem;
 }
 /* Social */
 .social {
@@ -238,11 +257,6 @@ body {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   background: rgb(25, 0, 255, 0.1);
-}
-.foot-txt {
-  margin: 2rem;
-  font-weight: 300;
-  color: var(--Col);
 }
 @media only screen and (max-device-width: 375px) {
   .w-a {

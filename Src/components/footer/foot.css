@@ -1,0 +1,18 @@
+.foot-txt {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--Col);
+}
+.social {
+  padding: 0.75rem 0;
+  & a {
+    color: var(--Col);
+  }
+}
+.txtOpen {
+  font-size: 0.87rem;
+}
+.txtCopy {
+  font-size: 0.8rem;
+  color: var(--Col);
+}
